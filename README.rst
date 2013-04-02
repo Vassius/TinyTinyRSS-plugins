@@ -8,7 +8,8 @@ More to come, hopefully..
 
 License
 =======
-MIT licensed, feel free to use them. 
+MIT licensed, feel free to use them to your heart's content. 
+See the LICENSE file for details. 
 
 Author
 ======
