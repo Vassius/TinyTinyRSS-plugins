@@ -1,15 +1,11 @@
 <?php
 class Af_SomethingPositive extends Plugin {
-    private $host;
-    private $link;
 
     function about() {
         return array(0.1, "Fetch image from Something Positive webcomic", "Markus Wiik");
 
     }
     function init($host) {
-        $this->link = $host->get_link();
-        $this->host = $host;
         $host->add_hook($host::HOOK_ARTICLE_FILTER, $this);
     }
 
