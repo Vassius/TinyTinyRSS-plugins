@@ -1,17 +1,28 @@
 Plugins for Tiny Tiny RSS
 =========================
+This is a collection of plugins that make the feeds a bit more useful.
 
-Currently there's only one plugin here; one that fetches the actual comic image from
+Something Positive
+------------------
+Fetches the actual comic image from the Something Positive web comic. 
+
 http://www.somethingpositive.net
 
-More to come, hopefully..
+Axe Cop
+-------
+Fetches the actual comic image from the Axe Cop web comic. 
+
+http://www.axecop.com
+
+Feedback
+========
+Any feedback is appreciated. Let me know if you find any bugs or have any improvement suggestions. 
+
+Author
+======
+Plugins written by Markus Wiik <vassius@gmail.com>
 
 License
 =======
 MIT licensed, feel free to use them to your heart's content. 
 See the LICENSE file for details. 
-
-Author
-======
-Plugin written by Markus Wiik <vassius@gmail.com>
-
