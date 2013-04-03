@@ -14,6 +14,10 @@ Fetches the actual comic image from the Axe Cop web comic.
 
 http://www.axecop.com
 
+Tapastic
+========
+Fetches the main image from comics hosted at Tapastic, such as Joy of Tech, HJ-Story, etc. 
+
 Feedback
 ========
 Any feedback is appreciated. Let me know if you find any bugs or have any improvement suggestions. 
