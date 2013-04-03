@@ -15,7 +15,7 @@ class Af_AxeCop extends Plugin {
             if (strpos($article["plugin_data"], "axecop,$owner_uid:") === FALSE) {
                 $url = parse_url($article["link"]);
                 $matches = array();
-                $result = preg_match("/episode_([0-9]+)\/$/", $url["path"], &$matches);
+                $result = preg_match("/episode_([0-9]+)\/$/", $url["path"], $matches);
                 if ($result === FALSE || $result == 0) {
                     return $article;
                 }
