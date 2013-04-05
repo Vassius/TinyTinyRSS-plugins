@@ -13,9 +13,8 @@ class Af_SomethingPositive extends Plugin {
         $owner_uid = $article["owner_uid"];
         if (strpos($article["link"], "somethingpositive.net") !== FALSE) {
             if (strpos($article["plugin_data"], "somethingpositive,$owner_uid:") === FALSE) {
-                $url = parse_url($article["link"]);
-                $image_name = substr($url["path"], 0, -5) . "png";
-                $article["content"] = '<img src="http://' . $url["host"] . '/' . $image_name . '"/>';
+                $image_url = preg_replace("/shtml/", "png", $article['link']);
+                $article["content"] = '<img src="' . $image_url . '"/>';
                 $article["plugin_data"] = "somethingpositive,$owner_uid:" . $article["plugin_data"];
             }
             else if (isset($article["stored"]["content"])) {
