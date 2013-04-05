@@ -18,9 +18,13 @@ Tapastic
 --------
 Fetches the main image from comics hosted at Tapastic, such as Joy of Tech, HJ-Story, etc. 
 
+http://www.tapastic.com/
+
 Amazing SuperPowers
 -------------------
 Fetches the full-size image for Amazing SuperPowers webcomic.
+
+http://www.amazingsuperpowers.com/
 
 Feedback
 ========
