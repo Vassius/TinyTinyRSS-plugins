@@ -26,6 +26,10 @@ Fetches the full-size image for Amazing SuperPowers webcomic.
 
 http://www.amazingsuperpowers.com/
 
+4chan.org/b/
+------------
+Replace thumbnail with full size image. 
+
 Feedback
 ========
 Any feedback is appreciated. Let me know if you find any bugs or have any improvement suggestions. 
