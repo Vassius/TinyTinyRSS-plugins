@@ -2,6 +2,10 @@ Plugins for Tiny Tiny RSS
 =========================
 This is a collection of plugins that make the feeds a bit more useful.
 
+Bitbucket
+---------
+Fetches the actual comment text. 
+
 Something Positive
 ------------------
 Fetches the actual comic image from the Something Positive web comic. 
