@@ -57,5 +57,9 @@ class Af_Bitbucket extends Plugin {
         }
         return $article;
     }
+
+    function api_version() {
+        return 2;
+    }
 }
 ?>
