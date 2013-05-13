@@ -23,5 +23,9 @@ class Af_SomethingPositive extends Plugin {
         }
         return $article;
     }
+
+    function api_version() {
+        return 2;
+    }
 }
 ?>
