@@ -30,5 +30,9 @@ class Af_AxeCop extends Plugin {
         }
         return $article;
     }
+
+    function api_version() {
+        return 2;
+    }
 }
 ?>
