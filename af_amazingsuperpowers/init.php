@@ -24,5 +24,8 @@ class Af_AmazingSuperPowers extends Plugin {
         }
         return $article;
     }
+    function api_version() {
+        return 2;
+    }
 }
 ?>
