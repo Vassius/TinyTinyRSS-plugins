@@ -35,5 +35,9 @@ class Af_4chan extends Plugin {
         }
         return $article;
     }
+
+    function api_version() {
+        return 2;
+    }
 }
 ?>
